@@ -1,9 +1,3 @@
-def hello():
-    print("Hello World!")
-
-#hello()
-
-
 def sudy_nebo_lichy(cislo):
    
     if cislo % 2 == 0:
