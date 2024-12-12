@@ -3,6 +3,7 @@ jedenact_devatenact = ["", "jedenáct", "dvanáct", "třináct", "čtrnáct", "p
 desitky = ["", "deset", "dvacet", "třicet", "čtyřicet", "padesát", "šedesát", "sedmdesát", "osmdesát", "devadesát"]
 
 def cislo_text(cislo):
+    cislo = int(cislo)
     if cislo == 0:
         return "nula"
 
